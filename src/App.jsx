@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Education from './components/Education';
 
 import './App.css'
+import About from './components/About';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
     <div className="min-h-screen bg-[#0a192f] text-white">
       <Navbar navigationItems={navigationItems} />
       <Hero />
+      <About/>
       <Skills skills={skills} />
       <Experience />
       <Projects />

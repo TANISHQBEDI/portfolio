@@ -1,9 +1,10 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 
-const HistoryCard = ({ title, items, sectionTitle }) => {
+const HistoryCard = ({ id, items, sectionTitle }) => {
+    console.log("Received ID:", id);
   return (
-    <section className="py-16 px-4 bg-[#112240]">
+    <section id={id} className="py-16 px-4 bg-[#112240] ">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-[#ccd6f6]">{sectionTitle}</h2>
         <div className="grid gap-6">

@@ -15,10 +15,10 @@ const HeroSection = () => {
           </a>
         </div>
         <div className="flex justify-center space-x-6">
-          <a href="https://linkedin.com/in/[your-profile]" className="text-[#8892b0] hover:text-[#64ffda] font-medium">
+          <a href="https://linkedin.com/in/tanishq-bedi" className="text-[#8892b0] hover:text-[#64ffda] font-medium">
             LinkedIn
           </a>
-          <a href="https://github.com/[your-profile]" className="text-[#8892b0] hover:text-[#64ffda] font-medium">
+          <a href="https://github.com/TANISHQBEDI" className="text-[#8892b0] hover:text-[#64ffda] font-medium">
             GitHub
           </a>
         </div>

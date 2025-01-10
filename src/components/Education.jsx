@@ -15,7 +15,7 @@ const EducationSection = () => {
     },
   ];
 
-  return <HistoryCard title="Education" items={educationItems} sectionTitle="Education" />;
+  return <HistoryCard items={educationItems} sectionTitle="Education" id='education'/>;
 };
 
 export default EducationSection;

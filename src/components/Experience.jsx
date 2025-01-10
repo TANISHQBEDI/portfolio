@@ -23,7 +23,7 @@ const Experience = () => {
     },
   ];
 
-  return <HistoryCard title="Work Experience" items={experienceItems} sectionTitle="Work Experience" />;
+  return <HistoryCard items={experienceItems} sectionTitle="Work Experience" id='experience'/>;
 };
 
 export default Experience;

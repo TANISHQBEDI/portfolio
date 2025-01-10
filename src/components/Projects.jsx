@@ -15,7 +15,7 @@ const Projects = () => {
     // Add other project items here
   ];
 
-  return <HistoryCard title="Projects" items={projectItems} sectionTitle="Projects" />;
+  return <HistoryCard items={projectItems} sectionTitle="Projects" id='projects'/>;
 };
 
 export default Projects;
